@@ -1,0 +1,74 @@
+/*Amikom Web Template
+AWC 2015
+By Yussan @xyussanx*/
+
+html{background-color: #E0E0E0;font-size:12px;}
+.full-width{min-width:100%;padding:0;margin:0;}
+.strip-orange{background-color: #FFA500;height:3px;}
+.strip-purple{background-color: #390A61;}
+.logo{width:180px;height:50px;background-image:url('img/amikom-logo.png');background-size: cover}
+.top-link{border-top: 1px solid #581890;border-bottom: 1px solid #581890;padding:10px 0;margin-bottom:25px;}
+ul.top-link-item{float:left;list-style: none;margin: 0}
+ul.top-link-item li{float:left;margin-right:15px;}
+ul.top-link-item a{color:#fff;}
+.slide-menu{height:300px;background-color: #f4f4f4;padding:0;}
+.slide-menu>.left{}
+.slide-menu>.right{height:100%;overflow-y:auto;}
+.link-selengkapnya{background-color: #000;color:#aaa;font-size: 11px;}
+.link-selengkapnya:hover{background-color: #1d1d1d;}
+
+/*top menu*/
+ul.bi-top-menu{float:right;}
+ul.big-top-menu .item{text-align:center;height:70px;color:#fff;font-size:15px;font-weight:bold;width:100px;padding:35px 10px 10px 10px;margin-right: 5px}
+ul.big-top-menu li{float:left;list-style:none;}
+.big-top-menu .item{background-color: #FFA500;margin-bottom:5px;}.big-top-menu .item:hover{background-color: #EA7222}
+/*.amikom-menu{padding:5px;}*/
+.amikom-menu>a{color:#fff;vertical-align: 1;font-weight: bold;line-height:1;font-size: 15px}
+.amikom-menu img{height:100%;}
+.amikom-menu .item{padding:10px;background-color:#FFA500;border-bottom: 1px solid #fff}.amikom-menu .item:hover{background-color:#EA7222;}
+/*content*/
+.info-group>.item,.info-group>.item>.inside-item{padding:5px;}.info-group>.item>.inside-item{background-color: #fff}
+.info-group>.item>.title{background-color:#390A61;color:#fff; padding:5px;font-weight: bold }
+.inside-item .content .link{border-bottom: 1px solid #E4E4E4;padding:5px 0;height: 50px}
+.content .link:hover{background-color: #f4f4f4}
+.inside-item .content a{font-size: 12px;line-height: 1;color:gray}
+.selengkapnya{color:#fff;padding:1px;background-color: #FFA500;font-size: 10px}
+.selengkapnya:hover{background-color: #DD712A}
+/*award*/
+.award{padding:10px;background-color: #fff}
+.short-title{background-color:#390A61;color:#fff; padding:5px;font-weight: bold;width:200px;}
+/*event*/
+.event-list{height:150px;}
+.event-title{background-color: #390A61;color:#fff;height:100%;}
+.event-item{height:100%;background-color: #fff;padding-top:10px;color:rgb(103, 103, 103);border-right: 1px solid rgb(203, 203, 203)}
+.event-item h3{color:rgb(103, 103, 103);font-weight: bold;font-size: 20px;line-height: 1;margin:0;}
+.event-item h4{color:rgb(103, 103, 103);font-weight: bold;font-size: 12px;line-height: 1;margin:0 0 10px 0;}
+.event-item a {color:rgb(103, 103, 103);font-size:12px}
+/*award*/
+.award-list img{height:130px;}
+/*footer*/
+.footer{padding:10px;color:#fff;}
+.footer img{margin-right:20px;height:40px;}
+/*always on top*/
+.online-support{float:left;}
+.online-support img{width:100px;height:100px;margin-bottom: 10px}
+.ontop-contact{padding:20px;background-color: orange;color:#fff;bottom: 10px;left:0;position: fixed;z-index: 100;font-size: 15px;font-weight: bold}
+.ontop-back{padding:10px;background-color: orange;color:#fff;bottom: 10px;right:0;position: fixed;z-index: 100;font-size: 40px;font-weight: bold}
+.ontop-contact:hover,.ontop-contact:active,.ontop-contact:visited,.ontop-back:visited,.ontop-back:hover,.ontop-back:active{color:#fff;}
+/*dosen*/
+.content-title,.content-inside{background-color: #fff;padding:10px;}
+.content-inside{margin-top:20px;}
+.content-title>h1{border-left :5px solid #390A61;font-size: 20px;padding-left: 10px}
+.content-menu{padding:0;}
+.content-menu .title{background-color:#390A61;color:#fff; padding:5px;font-weight: bold }
+.content-menu .item{padding:10px;}
+/*dosen*/
+.dosen-list{margin-bottom: 20px;float:left;}
+.dosen-list>.item{padding:5px;background-color: #fff;}
+.dosen-list>.item-button{background-color: #fff;}
+.dosen-list>.item-button>a.orange{float:right;background-color: orange;color:#fff;padding:5px;width:40px;}
+.dosen-list>.item-button>a.gray{float:right;background-color: #f4f4f4;color:gray;padding:5px;width:40px;}
+
+.dosen-list img{height:50px;float:left;}
+.dosen-list h4{margin:0;line-height: 1px;margin:10px 5px 5px 5px;}
+.index-abc{border:1px solid #390A61;padding:2px 5px;font-size: 11px;margin-bottom: 10px}

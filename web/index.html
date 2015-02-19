@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/foundation.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/amikombyyussan.css">
+	<link rel="icon" href="img/amikomlogo.png">
+	<script type="text/javascript" src="js/vendor/modernizr.js"></script>
+	<script src="js/vendor/jquery.js"></script>	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#content').toggle('slow');
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 100) {
+					$("#btntop").fadeIn();
+				} else {
+					$("#btntop").fadeOut();
+				}
+			});
+
+			$("#btntop").click(function(){
+				$('html, body').animate({scrollTop : 0},800);
+				return false;
+			});
+		});
+		function showEvent(){$('#moreevent').toggle('fast');}
+		function showAwards(){$('#moreawards').toggle('fast');}
+	</script>
+	<title>STMIK Amikom Yogyakarta</title>
+</head>
+<body>
+	<!-- start header -->
+	<header>
+		<div class="full-width">
+			<div class="large-12 columns strip-orange"></div>
+			<div class="large-12 columns strip-purple">
+				<div class="large-2 columns"><p></p></div>
+				<div class="large-8 columns">
+					<div style="padding:15px 0" class="large-3 columns">
+						<div class="logo"></div>
+					</div>
+					<div style="padding:0" class="large-9 columns">
+						<!-- top menu -->
+						<ul style="float:right" class="big-top-menu">
+							<li><a href="#"><div class="item">PMB</div></a></li>
+							<li><a href="#"><div class="item">Prodi</div></a></li>
+							<li><a href="#"><div class="item">E-Learning</div></a></li>
+							<li><a href="#"><div class="item">AMICTA</div></a></li>
+							<li><a href="#"><div class="item">Studi</div></a></li>
+						</ul>
+					</div>
+					<div class="large-12 columns top-link">
+						<ul class="top-link-item">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Dosen</a></li>
+							<li><a href="#">PMB</a></li>
+							<li><a href="#">Diglib</a></li>
+							<li><a href="#">Menu</a></li>
+							<li><a href="#">Menu</a></li>
+						</ul>
+						<ul style="float:right" class="top-link-item">
+							<li><input style="margin:0;width:200px;height:23px" type="text" placeholder="Pencarian"></li>
+							<li><a href="#" data-dropdown="loginform" aria-controls="true" aria-expanded="false"><strong>Login</strong></a></li>
+							<ul style="float:left" id="loginform" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+								<div style="padding:5px" >
+									<br/>
+									<h5><strong><span class="fi-lock"></span> Login Mahasiswa / Dosen</strong></h5>
+									<form>
+										<input style="height:40px" type="text" placeholder="NIM/NIP">
+										<input style="height:40px" type="password" placeholder="Password">
+										<button class="secondary">Login</button>
+									</form>
+								</div>
+							</ul>
+						</ul>						
+					</div>					
+				</div>
+				<div class="large-2 columns"><p></p></div>
+			</div>
+		</div>
+	</header>	
+	<!-- slider -->
+	<div class="large-12 columns full-width">
+		<div class="large-2 columns"><p></p></div>
+		<div class="large-8 columns">
+			<div class="large-12 columns slide-menu">
+				<div style="padding:0" class="left large-9 columns">
+					<!-- start slide -->
+					<ul style="height:50%" class="example-orbit" data-orbit>
+						<li>
+							<img style="height:300px;width:100%" src="img/slider/bos.png" alt="slide 3" />
+							<div class="orbit-caption">
+								<strong>Battle Of Surabaya</strong> there is no glory in war <a href="#">more</a>
+							</div>
+						</li>
+						<li>
+							<img style="height:300px;width:100%" src="img/slider/apicta.jpg" alt="slide 2" />
+							<div class="orbit-caption">
+								Caption Two.
+							</div>
+						</li>
+						<li>
+							<img style="height:300px;width:100%" src="img/slider/amikom.jpg" alt="slide 3" />
+							<div class="orbit-caption">
+								Caption Three.
+							</div>
+						</li>
+					</ul>
+					<!-- end of slide -->
+				</div>
+				<div style="padding:0" class="right large-3 columns">
+					<div class="amikom-menu">
+						<a href="#">
+							<div class="item row collapse">
+								<div class="small-3 columns"><span style="font-size:30px;" class="fi-puzzle"></span></div>
+								<div class="small-9 columns">Amikom <br/>Research</div>									
+							</div>
+						</a>
+						<a href="#">
+							<div class="item row collapse">
+								<div class="small-3 columns"><span style="font-size:30px;" class="fi-book"></span></div>
+								<div class="small-9 columns">Digital <br/>Library</div>									
+							</div>
+						</a>
+						<a href="#">
+							<div class="item row collapse">
+								<div class="small-3 columns"><span style="font-size:30px;" class="fi-results-demographics"></span></div>
+								<div class="small-9 columns">Amikom<br/>Sosial</div>									
+							</div>
+						</a>
+						<a href="#">
+							<div class="item row collapse">
+								<div class="small-3 columns"><span style="font-size:30px;" class="fi-projection-screen"></span></div>
+								<div class="small-9 columns">E-Learning <br/>Amikom</div>									
+							</div>
+						</a>
+						<a href="#">
+							<div class="item row collapse">
+								<div class="small-3 columns"><span style="font-size:30px;" class="fi-calendar"></span></div>
+								<div class="small-9 columns">Kalender <br/>Akademik</div>									
+							</div>
+						</a>
+						<a href="#">
+							<div class="item row collapse">
+								<div class="small-3 columns"><span style="font-size:30px;" class="fi-thumbnails"></span></div>
+								<div class="small-9 columns">Amikom <br/>Menu</div>									
+							</div>
+						</a>
+						<a href="#">
+							<div class="item row collapse">
+								<div class="small-3 columns"><span style="font-size:30px;" class="fi-thumbnails"></span></div>
+								<div class="small-9 columns">Amikom <br/>Menu</div>									
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="large-2 columns"><p></p></div>		
+	</div>
+	<!-- end of slider -->
+	<!-- end of header -->
+	<!-- event -->
+	<div class="large-12 columns full-width">
+		<div class="large-2 columns"><p></p></div>
+		<div class="large-8 columns">
+			<div style="padding:0" class="event-list large-12 columns">
+				<div class="event-title large-2 columns">
+					<br/>
+					<span>Amikom</span><br/>
+					<span style="font-size:20px">EVENT</span>
+					<hr/>
+					<a style="color:#fff" href="#">Semua Event <span class="fi-arrow-right"></span></a>
+				</div>
+				<div style="margin:0;padding:0;height:100%" class="large-10 columns">
+					<div class="large-4 columns event-item">
+						<h3>05/Feb/2015</h3>
+						<h4>12:00 - 17:00 di Citra 1</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis cursus lacus eu pharetra.
+						</p>
+						<a href="#">Selengkapnya</span></a>
+					</div>
+					<div class="large-4 columns event-item">
+						<h3>05/Feb/2015</h3>
+						<h4>12:00 - 17:00 di Citra 1</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis cursus lacus eu pharetra.
+						</p>
+						<a href="#">Selengkapnya</span></a>
+					</div>
+					<div class="large-4 columns event-item">
+						<h3>05/Feb/2015</h3>
+						<h4>12:00 - 17:00 di Citra 1</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis cursus lacus eu pharetra.
+						</p>
+						<a href="#">Selengkapnya</span></a>
+					</div>
+				</div>
+			</div>
+			<div style="padding:0;display:none" id="moreevent" class="event-list large-12 columns">
+				<div class="event-title large-2 columns"><p></p></div>
+				<div style="margin:0;padding:0;height:100%" class="large-10 columns">
+					<div class="large-4 columns event-item">
+						<h3>05/Feb/2015</h3>
+						<h4>12:00 - 17:00 di Citra 1</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis cursus lacus eu pharetra.
+						</p>
+						<a href="#">Selengkapnya</span></a>
+					</div>
+					<div class="large-4 columns event-item">
+						<h3>05/Feb/2015</h3>
+						<h4>12:00 - 17:00 di Citra 1</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis cursus lacus eu pharetra.
+						</p>
+						<a href="#">Selengkapnya</span></a>
+					</div>
+					<div class="large-4 columns event-item">
+						<h3>05/Feb/2015</h3>
+						<h4>12:00 - 17:00 di Citra 1</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis cursus lacus eu pharetra.
+						</p>
+						<a href="#">Selengkapnya</span></a>
+					</div>	
+				</div>							
+			</div>
+			<div class="large-12 columns">
+				<a onclick="showEvent()"><div class="link-selengkapnya large-1 large-offset-11 columns"><center>more</center></div></a>
+			</div>
+		</div>
+		<div class="large-2 columns"><p></p></div>
+	</div>
+	<!-- event -->
+	<!-- start content-->
+	<div style="margin-top:20px" class="large-12 columns full-width">
+		<div class="large-2 columns"><p></p></div>
+		<div style="padding:0" class="large-8 columns">
+			<div class="info-group large-12 columns">
+				<div class="item large-3 columns">
+					<div class="title"><center>Info Kampus</center></div>
+					<div class="inside-item">
+						<div class="content">
+							<a href=""><div class="link">23/01/2015<br/>Pengumuman untuk Peserta Remidi SO dan JARKOM</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Jadwal Kuliah Kewarganegaraan Semester Genap TA. 2014/2015</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Jadwal Kuliah Kewarganegaraan Semester Genap TA. 2014/2015</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Jadwal Kuliah Kewarganegaraan Semester Genap TA. 2014/2015</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Jadwal Kuliah Kewarganegaraan Semester Genap TA. 2014/2015</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Jadwal Kuliah Kewarganegaraan Semester Genap TA. 2014/2015</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Jadwal Kuliah Kewarganegaraan Semester Genap TA. 2014/2015</div></a>
+						</div>
+					</div>
+					<a href=""><div class="selengkapnya"><center>arsip</center></div></a>	
+				</div>
+				<div class="item large-3 columns">
+					<div class="title"><center>Berita Terbaru</center></div>
+					<div class="inside-item">
+						<div class="content">
+							<a href=""><div class="link">23/01/2015<br/>Berita Dari Amikom</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Berita Dari Amikom</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Berita Dari Amikom</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Berita Dari Amikom</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Berita Dari Amikom</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Berita Dari Amikom</div></a>
+							<a href=""><div class="link">23/01/2015<br/>Berita Dari Amikom</div></a>
+						</div>
+					</div>
+					<a href=""><div class="selengkapnya"><center>arsip</center></div></a>
+
+				</div>
+				<div class="item large-3 columns">
+					<div class="title"><center>E-Learning</center></div>
+					<div class="inside-item">
+						<div class="content">
+							<a href=""><div class="link">23/01/2015<br/><strong>Latihan Soal Phyton</strong> oleh Dosen</div></a>
+							<a href=""><div class="link">23/01/2015<br/><strong>Latihan Soal Phyton</strong> oleh Dosen</div></a>
+							<a href=""><div class="link">23/01/2015<br/><strong>Latihan Soal Phyton</strong> oleh Dosen</div></a>
+							<a href=""><div class="link">23/01/2015<br/><strong>Latihan Soal Phyton</strong> oleh Dosen</div></a>
+							<a href=""><div class="link">23/01/2015<br/><strong>Latihan Soal Phyton</strong> oleh Dosen</div></a>
+							<a href=""><div class="link">23/01/2015<br/><strong>Latihan Soal Phyton</strong> oleh Dosen</div></a>
+							<a href=""><div class="link">23/01/2015<br/><strong>Latihan Soal Phyton</strong> oleh Dosen</div></a>
+						</div>
+					</div>
+					<a href=""><div class="selengkapnya"><center>arsip</center></div></a>	
+
+				</div>
+				<div class="item large-3 columns">
+					<div class="title"><center>Research</center></div>
+					<div class="inside-item">
+						<div class="content">
+							<a href=""><div class="link">Penulis, Analisis dan Perancangan Sistem </div></a>
+							<a href=""><div class="link">Penulis, Analisis dan Perancangan Sistem </div></a>
+							<a href=""><div class="link">Penulis, Analisis dan Perancangan Sistem </div></a>
+							<a href=""><div class="link">Penulis, Analisis dan Perancangan Sistem </div></a>
+							<a href=""><div class="link">Penulis, Analisis dan Perancangan Sistem </div></a>
+							<a href=""><div class="link">Penulis, Analisis dan Perancangan Sistem </div></a>
+							<a href=""><div class="link">Penulis, Analisis dan Perancangan Sistem </div></a>
+						</div>
+					</div>
+					<a href=""><div class="selengkapnya"><center>arsip</center></div></a>
+				</div>
+			</div>
+		</div>
+		<div class="large-2 columns"><p></p></div>
+	</div>
+	<!-- end of content -->
+	<!-- start award -->
+	<!-- event -->
+	<div style="margin-top:20px" class="large-12 columns full-width">
+		<div class="large-2 columns"><p></p></div>
+		<div class="large-8 columns">
+			<div style="padding:0" class="award-list event-list large-12 columns">
+				<div class="event-title large-2 columns">
+					<br/>
+					<span>Amikom</span><br/>
+					<span style="font-size:20px">AWARD</span>
+					<hr/>
+					<a style="color:#fff" href="#">Semua Award <span class="fi-arrow-right"></span></a>
+				</div>
+				<div style="margin:0;padding:0;height:100%" class="large-10 columns">
+					
+					<div class="large-4 columns event-item">
+						<center>
+							<a href="http://amikom.ac.id/index.php/main/berita/jagoan-inovasi-teknologi-amikom-merebut-2-pengharg"><img src="img/ict_award.jpg" /></a>
+						</center>
+					</div>
+					<div class="large-4 columns event-item">
+						<center>
+							<a href="http://amikom.ac.id/index.php/main/berita/jagoan-inovasi-teknologi-amikom-merebut-2-pengharg"><img src="img/apicta.jpg" /></a>
+						</center>
+					</div>
+					<div class="large-4 columns event-item">
+						<center>
+							<a href="http://amikom.ac.id/index.php/main/berita/jagoan-inovasi-teknologi-amikom-merebut-2-pengharg"><img src="img/tesca.png" /></a>
+						</center>
+					</div>
+				</div>
+			</div>
+
+			<div style="padding:0;display:none" id="moreawards" class="event-list large-12 columns">
+				<div class="event-title large-2 columns"><p></p></div>
+				<div style="margin:0;padding:0;height:100%" class="large-10 columns">					
+					<div class="large-4 columns event-item">
+						<center>
+							<a href="http://amikom.ac.id/index.php/main/berita/jagoan-inovasi-teknologi-amikom-merebut-2-pengharg"><img src="img/adoc.JPG" /></a>
+						</center>
+					</div>
+					<div class="large-4 columns event-item">
+						<center>
+							<a href="http://amikom.ac.id/index.php/main/berita/jagoan-inovasi-teknologi-amikom-merebut-2-pengharg"><img src="img/e-pendidikan.png" /></a>
+						</center>
+					</div>
+					<div class="large-4 columns event-item">
+						<center>
+							<a href="http://amikom.ac.id/index.php/main/berita/jagoan-inovasi-teknologi-amikom-merebut-2-pengharg"><img src="img/indosat.png" /></a>
+						</center>
+					</div>
+				</div>						
+			</div>
+			<div class="large-12 columns">
+				<a onclick="showAwards()"><div class="link-selengkapnya large-1 large-offset-11 columns"><center>more</center></div></a>
+			</div>
+		</div>
+		<div class="large-2 columns"><p></p></div>
+	</div>
+	<!-- event -->
+	<!-- end of award -->
+	<!-- start link -->
+	<div style="margin-top:20px" class="large-12 columns full-width">
+		<div class="large-2 columns"><p></p></div>
+		<div class="large-8 columns">
+			<div style="padding:0" class="col-md-12 columns">
+				<div class="award col-md-12 columns">
+					<center>
+						<a href=""><img src="img/link/link-bos.jpg"></a>
+						<a href=""><img src="img/link/suyanto.gif"></a>
+						<a href=""><img src="img/link/uli.gif"></a>
+						<a href=""><img src="img/link/webometrics.jpg"></a>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="large-2 columns"><p></p></div>		
+	</div>
+	<!-- end of link -->
+	<!-- start footer -->
+	<footer>
+		<div class="large-12 columns strip-purple footer">
+			<div class="large-2 columns"><p></p></div>
+			<div class="large-4 columns"><p></p>
+			</div>
+			<div style="text-align:right" class="large-4 columns">
+				<p><img src="img/img_smartamikom.jpg"><img src="img/IC_Innovation_Center.gif"></p>
+				<p> Kampus Terpadu : Jl. Ring Road Utara<br/> Condong Catur, Sleman, Yogyakarta</p>
+				<p>
+					Telp: (0274) 884201 - 207<br/>
+					Fax: (0274) 884208 Kodepos: 55283<br/>
+					E-Mail: amikom@amikom.ac.id </p>
+				</div>
+				<div class="large-2 columns"><p></p></div>
+			</div>
+		</footer>
+		<!-- end of footer -->
+		<div class="col-md-12 columns" style="display:block;font-size:10px;color:#fff;padding:5px;background-color:#000">
+			<center>Copyright &copy; Amikom 2015 | template by <a style="color:#fff" href="http://twitter.com/xyussanx">yussan</a></center>
+		</div>
+		<!-- always on top -->
+		<a data-reveal-id="modalContact" class="ontop-contact" href=""><img style="width:20px" src="img/call.png">  Online Support</a>
+		<a style="display:none" id="btntop" class="ontop-back" href=""><span class="fi-arrow-up"></span></a>
+		<!-- modal -->
+		<div id="modalContact" class="reveal-modal small open" data-reveal>
+			<h2>Online Support</h2>
+			<p class="lead">Silahkan menghubungi sesuai dengan bagian masing-masing</p>
+			<hr/>
+			<h3>Customer Service</h3>
+			<center>
+				<div style="float:left" class="row large-12 columns">
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak A</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+				</div>
+			</center>
+			<br/>
+			<h3>Humas</h3>
+			<center>
+				<div style="float:left" class="row large-12 columns">
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak A</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+				</div>
+			</center>
+		</center>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+</body>
+<script src="js/foundation.min.js"></script>
+<script>$(document).foundation();</script>
+</html>

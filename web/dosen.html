@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/foundation.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/amikombyyussan.css">
+	<link rel="icon" href="img/amikomlogo.png">
+	<script type="text/javascript" src="js/vendor/modernizr.js"></script>
+	<script src="js/vendor/jquery.js"></script>	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 100) {
+					$("#btntop").fadeIn();
+					// $("#indexabc").fadeIn();
+				} else {
+					$("#btntop").fadeOut();
+					// $("#indexabc").fadeOut();
+				}
+			});
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 400) {
+					$("#indexabc").fadeIn();
+				} else {
+					$("#indexabc").fadeOut();
+				}
+			});
+			$("#btntop").click(function(){
+				$('html, body').animate({scrollTop : 0},800);
+				return false;
+			});
+		});
+		function showEvent(){$('#moreevent').toggle('fast');}
+		function showAwards(){$('#moreawards').toggle('fast');}
+	</script>
+	<title>Dosen | STMIK Amikom Yogyakarta</title>
+</head>
+<body>
+	<!-- always on top -->
+	<div id="indexabc" style="display:none;position:fixed;z-index:100" class="full-width">
+		<div class="large-12 columns">
+			<div style="background-color:#fff" class="large-6 large-offset-4 columns">
+				<div class="index-abc large-12 columns">
+					<a href="#A">A</a> | <a href="#B">B</a> | <a href="#C">C</a> | <a href="#D">D</a> | <a href="#E">E</a> | <a href="#F">F</a> | <a href="#G">G</a> | <a href="#H">H</a> | <a href="#I">I</a> | <a href="#J">J</a> | <a href="#K">K</a> | <a href="#L">L</a> | <a href="#M">M</a> | <a href="#N">N</a> | <a href="#O">O</a> | <a href="#P">P</a> | <a href="#Q">Q</a> | <a href="#R">R</a> | <a href="#S">S</a> | <a href="#T">T</a> | <a href="#U">U</a> | <a href="#V">V</a> | <a href="#W">W</a> | <a href="#X">X</a> | <a href="#Y">Y</a> | <a href="#Z">Z</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- start header -->
+	<header>
+		<div class="full-width">
+			<div class="large-12 columns strip-orange"></div>
+			<div class="large-12 columns strip-purple">
+				<div class="large-2 columns"><p></p></div>
+				<div class="large-8 columns">
+					<div style="padding:15px 0" class="large-3 columns">
+						<div class="logo"></div>
+					</div>
+					<div style="padding:0" class="large-9 columns">
+						<!-- top menu -->
+						<ul style="float:right" class="big-top-menu">
+							<li><a href="#"><div class="item">PMB</div></a></li>
+							<li><a href="#"><div class="item">Prodi</div></a></li>
+							<li><a href="#"><div class="item">E-Learning</div></a></li>
+							<li><a href="#"><div class="item">AMICTA</div></a></li>
+							<li><a href="#"><div class="item">Studi</div></a></li>
+						</ul>
+					</div>
+					<div class="large-12 columns top-link">
+						<ul class="top-link-item">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Dosen</a></li>
+							<li><a href="#">PMB</a></li>
+							<li><a href="#">Diglib</a></li>
+							<li><a href="#">Menu</a></li>
+							<li><a href="#">Menu</a></li>
+						</ul>
+						<ul style="float:right" class="top-link-item">
+							<li><input style="margin:0;width:200px;height:23px" type="text" placeholder="Pencarian"></li>
+							<li><a href="#" data-dropdown="loginform" aria-controls="true" aria-expanded="false"><strong>Login</strong></a></li>
+							<ul style="float:left" id="loginform" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1">
+								<div style="padding:5px" >
+									<br/>
+									<h5><strong><span class="fi-lock"></span> Login Mahasiswa / Dosen</strong></h5>
+									<form>
+										<input style="height:40px" type="text" placeholder="NIM/NIP">
+										<input style="height:40px" type="password" placeholder="Password">
+										<button class="secondary">Login</button>
+									</form>
+								</div>
+							</ul>
+						</ul>						
+					</div>					
+				</div>
+				<div class="large-2 columns"><p></p></div>
+			</div>
+		</div>
+	</header>		
+	<!-- end of header -->	
+	<!-- start content-->
+	<div style="margin-top:20px" class="large-12 columns full-width">
+		<div class="large-2 columns"><p></p></div>
+		<div style="padding:0" class="large-8 columns">			
+			<div style="margin-top:10px;" class="event-list large-12 columns">
+				<div class="event-title large-2 columns">
+					<br/>
+					<span>Amikom</span><br/>
+					<span style="font-size:20px">DOSEN</span>
+					<hr/>
+					<a style="color:#fff" href="#">Semua Dosen <span class="fi-arrow-right"></span></a>
+				</div>
+				<div style="margin:0;padding:0;height:100%" class="large-10 columns">
+					<div class="large-12 columns event-item">
+						<p>Sebagai sekolah tinggi di bidang informatika, proses belajar-mengajar di STMIK AMIKOM didukung oleh tenaga pengajar yang berkualitas. STMIK AMIKOM memiliki dosen tetap dan dosen tidak tetap. Dosen tetap yang saat ini bergabung di STMIK AMIKOM rata-rata sedang menempuh pendidikan lanjut di program pasca sarjana. Dosen tidak tetap dan dosen luar biasa berasal dari Universitas Gadjah Mada maupun perguruan tinggi swasta/negeri lainnya.</p>
+					</div>
+				</div>
+			</div>
+			<div class="info-group large-12 columns">
+				<div class="content-menu content-inside large-3 columns">
+					<div class="title"><center>Menu</center></div>
+					<div class="item">
+						<a href="#">Dosen</a>
+						<hr/>
+						<a href="#">Struktur Organisasi</a>
+					</div>					
+				</div>
+				<div style="margin-top:20px" class="large-9 columns">
+					<div class="large-12 columns">
+						<div class="index-abc large-12 columns">
+							<a href="#A">A</a> | <a href="#B">B</a> | <a href="#C">C</a> | <a href="#D">D</a> | <a href="#E">E</a> | <a href="#F">F</a> | <a href="#G">G</a> | <a href="#H">H</a> | <a href="#I">I</a> | <a href="#J">J</a> | <a href="#K">K</a> | <a href="#L">L</a> | <a href="#M">M</a> | <a href="#N">N</a> | <a href="#O">O</a> | <a href="#P">P</a> | <a href="#Q">Q</a> | <a href="#R">R</a> | <a href="#S">S</a> | <a href="#T">T</a> | <a href="#U">U</a> | <a href="#V">V</a> | <a href="#W">W</a> | <a href="#X">X</a> | <a href="#Y">Y</a> | <a href="#Z">Z</a>
+						</div>
+						<h3 id="A" style="padding-left:10px"><strong>A</strong></h3>
+						<!-- dosen list -->
+						<div class="dosen-list large-6 columns">
+							<div class="item">
+								<span><img src="img/avatar/avatar.jpg"></span><span><h4>Dosen A</h4><small>last login : 2 hari lalu</small></span>
+								<hr/>
+								<p>Moto dosen atau pesan singkat untuk mahasiswa</p>
+							</div>
+							<div class="item-button">
+								<a data-tooltip aria-haspopup="true" title="Lihat info selengkapnya" class="orange has-tip" href=""><center><span class="fi-arrow-right"></span></center></a>	
+								<a data-tooltip aria-haspopup="true" title="Kirim email ke dosen" class="gray" href="mailto:amikom@amikom.ac.id"><center><span class="fi-mail"></span></center></a>	
+							</div>
+						</div>
+						<div class="dosen-list large-6 columns">
+							<div class="item">
+								<span><img src="img/avatar/avatar.jpg"></span><span><h4>Dosen A</h4><small>last login : 2 hari lalu</small></span>
+								<hr/>
+								<p>Moto dosen atau pesan singkat untuk mahasiswa</p>
+							</div>
+							<div class="item-button">
+								<a data-tooltip aria-haspopup="true" title="Lihat info selengkapnya" class="orange has-tip" href=""><center><span class="fi-arrow-right"></span></center></a>	
+								<a data-tooltip aria-haspopup="true" title="Kirim email ke dosen" class="gray" href="mailto:amikom@amikom.ac.id"><center><span class="fi-mail"></span></center></a>	
+							</div>
+						</div>
+						<div style="float:left" class="dosen-list large-6 columns">
+							<div class="item">
+								<span><img src="img/avatar/avatar.jpg"></span><span><h4>Dosen A</h4><small>last login : 2 hari lalu</small></span>
+								<hr/>
+								<p>Moto dosen atau pesan singkat untuk mahasiswa</p>
+							</div>
+							<div class="item-button">
+								<a data-tooltip aria-haspopup="true" title="Lihat info selengkapnya" class="orange has-tip" href=""><center><span class="fi-arrow-right"></span></center></a>	
+								<a data-tooltip aria-haspopup="true" title="Kirim email ke dosen" class="gray" href="mailto:amikom@amikom.ac.id"><center><span class="fi-mail"></span></center></a>	
+							</div>
+						</div>					
+					</div>
+					<div class="large-12 columns">
+						<h3 id="B" style="padding-left:10px"><strong>B</strong></h3>
+						<!-- dosen list -->
+						<div class="dosen-list large-6 columns">
+							<div class="item">
+								<span><img src="img/avatar/avatar.jpg"></span><span><h4>Dosen A</h4><small>last login : 2 hari lalu</small></span>
+								<hr/>
+								<p>Moto dosen atau pesan singkat untuk mahasiswa</p>
+							</div>
+							<div class="item-button">
+								<a data-tooltip aria-haspopup="true" title="Lihat info selengkapnya" class="orange has-tip" href=""><center><span class="fi-arrow-right"></span></center></a>	
+								<a data-tooltip aria-haspopup="true" title="Kirim email ke dosen" class="gray" href="mailto:amikom@amikom.ac.id"><center><span class="fi-mail"></span></center></a>	
+							</div>
+						</div>				
+					</div>
+					<div class="large-12 columns">
+						<h3 id="C" style="padding-left:10px"><strong>C</strong></h3>
+						<!-- dosen list -->
+						<div class="dosen-list large-6 columns">
+							<div class="item">
+								<span><img src="img/avatar/avatar.jpg"></span><span><h4>Dosen A</h4><small>last login : 2 hari lalu</small></span>
+								<hr/>
+								<p>Moto dosen atau pesan singkat untuk mahasiswa</p>
+							</div>
+							<div class="item-button">
+								<a data-tooltip aria-haspopup="true" title="Lihat info selengkapnya" class="orange has-tip" href=""><center><span class="fi-arrow-right"></span></center></a>	
+								<a data-tooltip aria-haspopup="true" title="Kirim email ke dosen" class="gray" href="mailto:amikom@amikom.ac.id"><center><span class="fi-mail"></span></center></a>	
+							</div>
+						</div>		
+						<div class="dosen-list large-6 columns">
+							<div class="item">
+								<span><img src="img/avatar/avatar.jpg"></span><span><h4>Dosen A</h4><small>last login : 2 hari lalu</small></span>
+								<hr/>
+								<p>Moto dosen atau pesan singkat untuk mahasiswa</p>
+							</div>
+							<div class="item-button">
+								<a data-tooltip aria-haspopup="true" title="Lihat info selengkapnya" class="orange has-tip" href=""><center><span class="fi-arrow-right"></span></center></a>	
+								<a data-tooltip aria-haspopup="true" title="Kirim email ke dosen" class="gray" href="mailto:amikom@amikom.ac.id"><center><span class="fi-mail"></span></center></a>	
+							</div>
+						</div>				
+					</div>
+					<div class="large-12 columns">
+						<h3 id="D" style="padding-left:10px"><strong>D</strong></h3>
+					</div>
+					<div class="large-12 columns">
+						<h3 id="D" style="padding-left:10px"><strong>E</strong></h3>
+					</div>
+					<div class="large-12 columns">
+						<h3 id="D" style="padding-left:10px"><strong>...</strong></h3>
+					</div>
+					<div class="large-12 columns">
+						<h3 id="D" style="padding-left:10px"><strong>Z</strong></h3>
+					</div>
+					<!-- end of dosen list -->
+				</div>
+			</div>
+		</div>
+		<div class="large-2 columns"><p></p></div>
+	</div>
+	<!-- end of content -->	
+	<!-- start link -->
+	<div style="margin-top:20px" class="large-12 columns full-width">
+		<div class="large-2 columns"><p></p></div>
+		<div class="large-8 columns">
+			<div style="padding:0" class="col-md-12 columns">
+				<div class="award col-md-12 columns">
+					<center>
+						<a href=""><img src="img/link/link-bos.jpg"></a>
+						<a href=""><img src="img/link/suyanto.gif"></a>
+						<a href=""><img src="img/link/uli.gif"></a>
+						<a href=""><img src="img/link/webometrics.jpg"></a>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div class="large-2 columns"><p></p></div>		
+	</div>
+	<!-- end of link -->
+	<!-- start footer -->
+	<footer>
+		<div class="large-12 columns strip-purple footer">
+			<div class="large-2 columns"><p></p></div>
+			<div class="large-4 columns"><p></p>
+			</div>
+			<div style="text-align:right" class="large-4 columns">
+				<p><img src="img/img_smartamikom.jpg"><img src="img/IC_Innovation_Center.gif"></p>
+				<p> Kampus Terpadu : Jl. Ring Road Utara<br/> Condong Catur, Sleman, Yogyakarta</p>
+				<p>
+					Telp: (0274) 884201 - 207<br/>
+					Fax: (0274) 884208 Kodepos: 55283<br/>
+					E-Mail: amikom@amikom.ac.id </p>
+				</div>
+				<div class="large-2 columns"><p></p></div>
+			</div>
+		</footer>
+		<!-- end of footer -->
+		<div class="col-md-12 columns" style="display:block;font-size:10px;color:#fff;padding:5px;background-color:#000">
+			<center>Copyright &copy; Amikom 2015 | template by <a style="color:#fff" href="http://twitter.com/xyussanx">yussan</a></center>
+		</div>
+		<!-- always on top -->
+		<a data-reveal-id="modalContact" class="ontop-contact" href=""><img style="width:20px" src="img/call.png">  Online Support</a>
+		<a style="display:none" id="btntop" class="ontop-back" href=""><span class="fi-arrow-up"></span></a>
+		<!-- modal -->
+		<div id="modalContact" class="reveal-modal small open" data-reveal>
+			<h2>Online Support</h2>
+			<p class="lead">Silahkan menghubungi sesuai dengan bagian masing-masing</p>
+			<hr/>
+			<h3>Customer Service</h3>
+			<center>
+				<div style="float:left" class="row large-12 columns">
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak A</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+				</div>
+			</center>
+			<br/>
+			<h3>Humas</h3>
+			<center>
+				<div style="float:left" class="row large-12 columns">
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak A</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+					<div class="online-support large-4 columns">
+						<img src="img/avatar/avatar.jpg">
+						<button>Mbak B</button>
+					</div>
+				</div>
+			</center>
+		</center>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+</body>
+<script src="js/foundation.min.js"></script>
+<script>$(document).foundation();</script>
+</html>
